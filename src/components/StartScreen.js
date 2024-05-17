@@ -20,9 +20,9 @@ const StartScreen = () => {
     <div
       className={`${css.root} ${animationTriggered ? css.introAnimate : ""}`}
     >
-      <div className={`${css.title} ${css.title1}`}>Figure</div>
-      <div className={`${css.title} ${css.title2}`}>Five</div>
-      <div className={`${css.title} ${css.title3}`}>Frenzy</div>
+      <div className={`${css.title} ${css.title1}`}>Number</div>
+      <div className={`${css.title} ${css.title2}`}>crunch</div>
+      <div className={`${css.title} ${css.title3}`}>challenge</div>
       {/* <div className={css.explainer}>A game for those who &lt;3 math.</div> */}
       <div className={css.btnGeneralWrap}>
         <Link to="/game">

@@ -10,6 +10,7 @@
     border:0.5vw solid #222;
     box-shadow: 2px 2px 20px rgba(0,0,0,.7);
     transition:.25s all ease-in-out;
+    margin-top: 5vh;
     @media (max-width:768px){
       border-radius:4px;
       font-size:24px;
@@ -17,7 +18,7 @@
     }
     .btnIcon{
       font-size:3vw;
-      margin-right:1vw;
+      margin-right:1vh;
       @media (max-width:768px){
         font-size:36px;
         margin-right:10px;
